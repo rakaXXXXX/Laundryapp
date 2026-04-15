@@ -1,0 +1,49 @@
+name: laundry_app
+description: A modern laundry service application
+version: 1.0.0+1
+
+environment:
+  sdk:  ^3.0.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  provider: ^6.1.2
+  shared_preferences: ^2.2.2
+  flutter_svg: ^2.0.9
+  intl: ^0.19.0
+  url_launcher: ^6.2.2
+  flutter_local_notifications: ^16.1.2
+  google_sign_in: ^6.1.5
+  flutter_staggered_animations: ^1.1.1
+  equatable: ^2.0.5
+  uuid: ^4.4.0
+  shimmer: ^3.0.0
+  cached_network_image: ^3.3.0
+  smooth_page_indicator: ^1.1.0
+  flutter_launcher_icons: ^0.13.1
+  badges: ^3.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/fonts/
+    - assets/icons/
+    - assets/images/
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter_Regular.ttf
+        - asset: assets/fonts/Inter-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Inter-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Inter-SemiBold.ttf
+          weight: 600
+     
